@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="system" method="upgrade">
+	<name>PLG_HRZ_MODULE_FILTER_ACCESSIBILITY_NAME</name>
+	<author>Stefan Herzog</author>
+	<creationDate>December 2021</creationDate>
+	<copyright>This plugin is released under the GNU/GPL License</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>joomla@devel.stefan-herzog.com</authorEmail>
+	<authorUrl>https://github.com/alve89</authorUrl>
+	<version>0.0.1</version>
+	<description>PLG_HRZ_MODULE_FILTER_ACCESSIBILITY_DESC</description>
+	<files>
+      <filename plugin="module_filter_accessibility">module_filter_accessibility.php</filename>
+	    <filename>index.html</filename>
+	    <folder>language</folder>
+			<folder>src</folder>
+  </files>
+	<config>
+    <fields name="params">
+        <fieldset name="basic">
+				</fieldset>
+	    </fields>
+	</config>
+
+	<languages>
+		<language tag="de-DE">language/de-DE/de-DE.plg_system_module_filter_accessibility.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_system_module_filter_accessibility.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_module_filter_accessibility.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_module_filter_accessibility.sys.ini</language>
+	</languages>
+
+	<updateservers>
+		<server type="extension" name="PLG_HRZ_MODULE_FILTER_ACCESSIBILITY_UPDATESERVER">https://raw.githubusercontent.com/alve89/j_plg_hrz_module_filter_accessibility/master/updates.xml</server>
+	</updateservers>
+</extension>
